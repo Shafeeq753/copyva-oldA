@@ -1,0 +1,46 @@
+.header_alltab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.header_alltab h1 {
+  font-size: 1.5em;
+  margin: 0;
+  font-family: poppins;
+}
+
+.explore-link {
+  font-size: 1em;
+  text-decoration: none;
+  color: black;
+  font-family: poppins;
+
+}
+
+@media (max-width:767px){
+  .header_alltab h1 {
+    font-size: 18px;
+    line-height: 27px;
+    font-family: Poppins;
+}
+.filter_icon {
+  border: 1px solid;
+  width: 24px;
+  height: 24px;
+  border-radius: 30px;
+}
+
+.filter_icon img {
+  position: relative;
+  top: -3px;
+}
+  .explore-link {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+}
